@@ -27,6 +27,12 @@ def multiply(a, b):
     # Returns the product of two numbers
     return a * b
 
+def divide(a, b):
+    # Returns the quotient of two numbers, handling division by zero
+    if b == 0:
+        return "Error: Division by zero is not allowed."
+    return a / b
+
 def main():
     while True:
         display_menu()
@@ -48,7 +54,7 @@ def main():
         elif choice == "3":
             print(f"Result: {multiply(num1, num2)}")
         elif choice == "4":
-            print(f"Result: {num1 / num2}")
+            print(f"Result: {divide(num1, num2)}")
 
 if __name__ == "__main__":
     main()
