@@ -28,6 +28,7 @@ def multiply(a, b):
     return a * b
 
 def divide(a, b):
+    # Returns the quotient of two numbers, handling division by zero
     if b == 0:
         return "Error: Division by zero is not allowed."
     return a / b
