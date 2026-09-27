@@ -16,6 +16,9 @@ def get_numbers():
         except ValueError:
             print("Invalid input. Please enter numeric values.")
 
+def add(a, b):
+    return a + b
+
 def main():
     while True:
         display_menu()
@@ -31,7 +34,7 @@ def main():
         num1, num2 = get_numbers()
 
         if choice == "1":
-            print(f"Result: {num1 + num2}")
+            print(f"Result: {add(num1, num2)}")
         elif choice == "2":
             print(f"Result: {num1 - num2}")
         elif choice == "3":
