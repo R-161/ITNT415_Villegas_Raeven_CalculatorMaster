@@ -20,6 +20,7 @@ def add(a, b):
     return a + b
 
 def subtract(a, b):
+    # Returns the difference between two numbers
     return a - b
 
 def main():
