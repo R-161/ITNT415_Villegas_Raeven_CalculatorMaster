@@ -16,6 +16,22 @@ def get_numbers():
         except ValueError:
             print("Invalid input. Please enter numeric values.")
 
+def add(a, b):
+    return a + b
+
+def subtract(a, b):
+    # Returns the difference between two numbers
+    return a - b
+
+def multiply(a, b):
+    # Returns the product of two numbers
+    return a * b
+
+def divide(a, b):
+    if b == 0:
+        return "Error: Division by zero is not allowed."
+    return a / b
+
 def main():
     while True:
         display_menu()
@@ -31,13 +47,13 @@ def main():
         num1, num2 = get_numbers()
 
         if choice == "1":
-            print(f"Result: {num1 + num2}")
+            print(f"Result: {add(num1, num2)}")
         elif choice == "2":
-            print(f"Result: {num1 - num2}")
+            print(f"Result: {subtract(num1, num2)}")
         elif choice == "3":
-            print(f"Result: {num1 * num2}")
+            print(f"Result: {multiply(num1, num2)}")
         elif choice == "4":
-            print(f"Result: {num1 / num2}")
+            print(f"Result: {divide(num1, num2)}")
 
 if __name__ == "__main__":
     main()
