@@ -17,6 +17,7 @@ def get_numbers():
             print("Invalid input. Please enter numeric values.")
 
 def add(a, b):
+    # Returns the sum of two numbers
     return a + b
 
 def subtract(a, b):
