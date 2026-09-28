@@ -1,11 +1,12 @@
+#Marc Raeven A. Villegas - BIT42
 def display_menu():
-    print("\n===== Calculator Menu =====")
+    print("\n      Calculator Menu      ")
     print("1. Addition")
     print("2. Subtraction")
     print("3. Multiplication")
     print("4. Division")
     print("5. Exit")
-    print("============================")
+    print("R-161 Midterms")
 
 def get_numbers():
     while True:
