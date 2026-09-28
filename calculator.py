@@ -24,7 +24,6 @@ def subtract(a, b):
     # Returns the difference between two numbers
     return a - b
 
-<<<<<<< HEAD
 def multiply(a, b):
     # Returns the product of two numbers
     return a * b
@@ -35,8 +34,6 @@ def divide(a, b):
         return "Error: Division by zero is not allowed."
     return a / b
 
-=======
->>>>>>> main
 def main():
     while True:
         display_menu()
